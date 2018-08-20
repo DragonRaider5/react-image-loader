@@ -1,0 +1,46 @@
+{
+  "name": "react-image-loader",
+  "version": "0.0.1",
+  "description": "A simple React component for asynchronous image loading with custom loading and error compoments",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run prune && npm run transpileJS",
+    "prune": "rimraf build",
+    "transpileJS": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragonraider5/react-image-loader.git"
+  },
+  "keywords": [
+    "react",
+    "image",
+    "loader",
+    "async",
+    "asynchronous",
+    "error",
+    "loading",
+    "state",
+    "placeholder"
+  ],
+  "author": "DragonRaider5 <dev.dragonraider5@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dragonraider5/react-image-loader/issues"
+  },
+  "homepage": "https://github.com/dragonraider5/react-image-loader#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  },
+  "peerDependencies": {
+    "react": ">=14.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "rimraf": "^2.6.2"
+  }
+}
