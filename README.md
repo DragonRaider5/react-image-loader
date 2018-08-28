@@ -1,4 +1,4 @@
-# react-image-loader
+# react-image-loadr
 
 A simple component for asynchronous image loading in React.
 
@@ -10,7 +10,7 @@ provide you with the current loading state of your image.
 
 ```javascript
 import React from 'react'
-import ImageLoader from 'react-image-loader'
+import ImageLoader from 'react-image-loadr'
 
 import ErrorComponent from './error'
 import LoaderComponent from './loader'
@@ -50,7 +50,7 @@ Property | Description | Example
 
 ### Rendering function arguments
 
-`react-image-loader` passes an object containing the current fetching state to
+`react-image-loadr` passes an object containing the current fetching state to
 your rendering function. It provides you with the follwing data:
 
 Key | Description | Type

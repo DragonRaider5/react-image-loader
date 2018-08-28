@@ -1,5 +1,5 @@
 {
-  "name": "react-image-loader",
+  "name": "react-image-loadr",
   "version": "0.1.0",
   "description": "A simple React component for asynchronous image loading with custom loading and error compoments",
   "main": "build/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dragonraider5/react-image-loader.git"
+    "url": "git+https://github.com/dragonraider5/react-image-loadr.git"
   },
   "keywords": [
     "react",
@@ -27,9 +27,9 @@
   "author": "DragonRaider5 <dev.dragonraider5@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dragonraider5/react-image-loader/issues"
+    "url": "https://github.com/dragonraider5/react-image-loadr/issues"
   },
-  "homepage": "https://github.com/dragonraider5/react-image-loader#readme",
+  "homepage": "https://github.com/dragonraider5/react-image-loadr#readme",
   "dependencies": {
     "prop-types": "^15.6.2"
   },
