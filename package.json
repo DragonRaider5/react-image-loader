@@ -1,6 +1,6 @@
 {
   "name": "react-image-loadr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple React component for asynchronous image loading with custom loading and error compoments",
   "main": "build/index.js",
   "scripts": {
